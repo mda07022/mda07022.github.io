@@ -1,0 +1,26 @@
+# Add an entry, where the key represents a slug.
+# Provide at least a `name` value and optionally `image`, `color` and `description`.
+# Markdown is enabled for `description`, however don't use more than one paragraph (enforced by `>`)
+#
+# Example:
+#
+# ~~~
+# mytag:
+#   name: My Tag
+#   description: >
+#     *My Tag* is an example of how to define a custom tag.
+# ~~~
+
+Levy:
+  name: Levy
+  image: /public/img/levy.jpg
+  color: '#949667'
+  description: >
+    形而上者谓之道，形而下者谓之器.
+
+jekyll:
+  name: Jekyll
+  image: /hydejack/public/img/jekyll.jpg
+  color: '#949667'
+  description: >
+    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
