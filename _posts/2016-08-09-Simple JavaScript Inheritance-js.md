@@ -133,7 +133,7 @@ var Foo = Class.extend返回构造方法Class,可以通过构造方法Class实�
 Foo.extend返回新的构造方法Class,原型是Foo,Foo的原型又是windows.Class
 var bar = new Bar();通过构造方法Class实例化，执行第23行定义的构造方法实例化。
 
-###参考资料：
+### 参考资料：
 > [1.全面理解面向对象的 JavaScript](http://www.ibm.com/developerworks/cn/web/1304_zengyz_jsoo/)
 
 > [2.理解John Resig's 'Simple JavaScript Inheritance'代码](http://www.cnblogs.com/enein/archive/2012/12/03/2799160.html)
