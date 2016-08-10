@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing Hydejack
-tags: [hyde]
+tags: [Java]
 ---
 
 <style>

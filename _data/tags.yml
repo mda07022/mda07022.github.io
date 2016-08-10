@@ -11,16 +11,18 @@
 #     *My Tag* is an example of how to define a custom tag.
 # ~~~
 
-Levy:
-  name: Levy
-  image: /public/img/levy.jpg
-  color: '#949667'
-  description: >
-    形而上者谓之道，形而下者谓之器.
+Java:
+  name: Java
+  color: '#268bd2'
 
-jekyll:
-  name: Jekyll
-  image: /hydejack/public/img/jekyll.jpg
-  color: '#949667'
-  description: >
-    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+js:
+  name: javascript
+  color: '#268bd2'
+    
+fore: 
+  name: "前端"
+  color: '#268bd2'
+
+sql:
+    name: "数据库"
+    color: '#268bd2'

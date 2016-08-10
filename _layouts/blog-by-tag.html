@@ -4,7 +4,9 @@ layout: default
 
 {% assign tag = site.data.tags[page.tag] %}
 
+<!--
 <h1 class="page-title">{{ tag.name }}</h1>
+
 {% if tag.description %}
   {% comment %}
     Adding the "message" class to the last (and usually only) paragraph of the description.
@@ -13,6 +15,7 @@ layout: default
   {{ desc | markdownify }}
 {% endif %}
 <hr/>
+-->
 
 {% if site.tags[page.tag] %}
   {% for post in site.tags[page.tag] %}

@@ -18,9 +18,12 @@
 {% endunless %}
 
 <div   id="_backdrop" class="backdrop"></div>
-<aside id="_sidebar" class="sidebar" {% if image %}style="background-image:url('{{ image }}')"{% endif %}>
+<aside id="_sidebar" class="sidebar" {% if image %}style="background-image:url('{{ image }}')"{% endif %}> 
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+    	{% if site.author.photo %}
+         <div class="photo"><img src="{{site.author.photo}}"></div>
+      {% endif %}
       <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
       {{ site.description | markdownify }}
     </div>

@@ -274,6 +274,11 @@ a:focus::before {
 .sidebar-social > a:last-child {
   margin-right: 0;
 }
+.sidebar-about .photo img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
 
 /* Enable z-index (derived from DOM structure) for the sidbar content. */
 .container {
@@ -397,3 +402,6 @@ a:focus::before {
 .katex-loaded .MathJax_Preview {
   display: none;
 }
+
+
+

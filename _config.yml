@@ -1,6 +1,9 @@
 # Permalinks
 permalink:        pretty
 
+#vpn使用了4000端口，故改为4008, jekyll serv
+port:    4008
+
 # Setup
 url:              http://qwtel.com
 
@@ -13,11 +16,11 @@ title:            Levy's Blog
 description:     '我的新博客在github安家了'
 
 # The tags listed as entries in the sidebar
-sidebar_tags:     [jekyll, Levy]
+sidebar_tags:     [Java, js, fore, sql]
 
 # Fallback image and color if not overwritten for tag or post
-image:            /public/img/nap.jpg
-color:            '#A85641'
+image:            
+color:            '#268bd2'
 
 author:
   name:           'Florian Klampfer'
@@ -30,16 +33,15 @@ author:
   disqus:         mda07022
 
   # This photo will be used in the about section
-  photo:          http://qwtel.com/public/img/flo.jpg
+  photo:    /public/img/photo.jpg      
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:          |
-    Hi, I'm Florian or [`@qwtel`](https://www.twitter.com/qwtel), which isn't an acronym,
-    I just [wanted a short username](http://qwtel.com/how-to-find-a-short-username) and that one happened to be available.
+  #about:          |
+    
 
-    Read my thoughts on [#software](http://qwtel.com/tag/software) and [#cryptoeconomics](http://qwtel.com/tag/cryptoeconomics).
-
-kramdown:
-  math_engine: mathjax
-  math_engine_opts:
-    preview: true
+highlighter: pygments
+markdown: kramdown
+#kramdown:
+ # math_engine: mathjax
+  #math_engine_opts:
+   # preview: true
