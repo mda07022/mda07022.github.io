@@ -1,47 +1,61 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
 # Permalinks
 permalink:        pretty
-
-#vpn使用了4000端口，故改为4008, jekyll serv
 port:    4008
-
 # Setup
-url:              http://qwtel.com
-
+url:              https://mda07022.github.io
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
 baseurl:          ''
-
 title:            Levy's Blog
-
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:     '我的新博客在github安家了'
-
 # The tags listed as entries in the sidebar
 sidebar_tags:     [Java, js, fore, sql]
-
 # Fallback image and color if not overwritten for tag or post
 image:            
 color:            '#268bd2'
 
-author:
-  name:           'Florian Klampfer'
 
+# ---------------- #
+#      Author      #
+# ---------------- #
+author:
+  name:           'linwei'
   # Setting social media usernames will add icons at the bottom of the sidebar
   twitter:        mda07022
   github:         mda07022
-
+  
   # Setting a disqus username will enable the comment section
   disqus:         mda07022
-
   # This photo will be used in the about section
   photo:    /public/img/photo.jpg      
-
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   #about:          |
     
 
-highlighter: pygments
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
 markdown: kramdown
-#kramdown:
- # math_engine: mathjax
-  #math_engine_opts:
-   # preview: true
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
