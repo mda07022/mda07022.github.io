@@ -150,8 +150,6 @@ pre {
 code {
   padding: .25em .5em;
   font-size: .85rem;
-  background-color: #f9f9f9;
- 
 }
 pre {
   display: block;
@@ -167,8 +165,6 @@ pre {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   /*background-color: #f9f9f9;*/
-   background-color: #222;
-
   /* Make code same width as regular text, and scroll the full page width on mobile */
   margin-left: -1rem;
   margin-right: -1rem;
