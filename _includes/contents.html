@@ -1,0 +1,16 @@
+<!-- 目录 -->
+<div class="contents">
+	<ul id="tree" class="ztree">
+	</ul>
+</div>
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/public/css/plugins/ztree-toc/zTreeStyle.css"/>
+<script type="text/javascript" src="{{ site.baseurl }}/public/js/plugins/ztree-toc/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/public/js/plugins/ztree-toc/jquery.ztree.core-3.5.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/public/js/plugins/ztree-toc/ztree_toc.js"></script>
+<SCRIPT type="text/javascript" >
+$(document).ready(function(){
+	$('#tree').ztree_toc({
+		documment_selector : ".content.container"
+	});
+});
+</SCRIPT>
